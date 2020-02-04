@@ -11,7 +11,8 @@ body {
   padding-top: 200px;
   padding-bottom: 500px;
 }
-.header{
+
+.header {
   padding-left: 30px;
 }
 
@@ -21,14 +22,15 @@ h1 {
   margin: 40px auto auto auto;
   padding-right: 200px;
 }
-pre{
+
+pre {
   margin-top: 20px;
   margin-bottom: 60px;
 }
 
 h2 {
   font-family: 'Comfortaa', cursive;
-  margin: 25px auto 25px auto;;
+  margin: 25px auto 50px auto;
   font-size: 2rem;
 }
 
@@ -39,17 +41,40 @@ h3 {
 
 p {
   color: #AD9180;
-  font-size: 25px;
+  font-size: 20px;
   margin: 0;
 }
-img{
-  margin-left: 0;
+
+
+hr
+{
+  border-style: dotted none none;
+  color: #EAF6F6;
+  border-width: 8px;
+  height: 0;
+  width: 7%;
 }
-.skill-row{
-  width: 50%;
-  height:auto;
+
+.my-skills-header
+{
+  margin-bottom: 40px;
+}
+.skill-row-1 {
+  width: 35%;
+  height: auto;
+  margin: 125px auto 120px auto;
+  text-align: left;
+  line-height: 1.5;
+  padding-top: 2px;
+}
+.skill-row-2 {
+  width: 45%;
+  height: auto;
   margin: auto auto 50px auto;
+  text-align: right;
+  line-height: 1.5;
 }
+
 .intro {
   color: #FF8133;
   margin: 0;
@@ -86,33 +111,132 @@ img{
   background-color: #FFFFFF;
   font-family: 'Maven Pro', sans-serif;
 }
+
 .profile-icon {
-  margin-top: 10px;
+  margin-top: 50px;
   height: 256px;
   width: 256px;
 }
-.icon-attribution{
-  margin:0;
+
+.icon-attribution {
+  margin: 0;
+  color: #AD9180;
+  text-align: center;
+  font-size: 9px;
 }
 
 .p1 {
+  line-height: 2rem;
   font-family: 'Maven Pro', sans-serif;
-  margin-bottom: 20px;
+  margin: 20px 20px auto auto;
+  font-size: 25px;
 }
-.gameboy{
-  height: 256px;
-  width: 190px;
+.p2
+{
+  line-height: 2rem;
 }
-.icon-attribution{
-  font-size: 9px;
-  margin-bottom: 50px;
+.p3
+{
+  line-height: 2rem;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.skills-head {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.skills
+{
+  margin-bottom: 150px;
+}
+.gameboy {
+  height: auto;
+  width: 19%;
+  float: right;
+  margin-left: 40px;
+}
+
+.gameboy-attribution {
+  margin-top: 0px;
+  margin-left: 680px;
 }
 
 .bottom-container {
+  margin-top: 80px;
+  padding: 38px 0 50px;
   background-color: #4BB1B3;
   font-family: 'Maven Pro', sans-serif;
 }
 
-.footer-link{
+.footer-link {
+  font-weight: bold;
   color: #11999E;
+  margin-right:20px;
 }
+.copyright
+{
+  margin-top: 25px;
+  font-size: 0.8rem;
+  color: #EAF6F6;
+}
+a {
+  color: #AD9180;
+}
+
+iframe {
+  width: 16%;
+  height: 300px;
+  padding-left: 120px;
+
+  margin-left: 300px;
+  float: left;
+}
+.contact-me{
+  margin-top: 100px;
+}
+
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2bc2f0), color-stop(1, #0b73db) );
+	background:-moz-linear-gradient( center top, #2bc2f0 5%, #0b73db 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2bc2f0', endColorstr='#0b73db');
+	background-color:#2bc2f0;
+	-webkit-border-top-left-radius:13px;
+	-moz-border-radius-topleft:13px;
+	border-top-left-radius:13px;
+	-webkit-border-top-right-radius:13px;
+	-moz-border-radius-topright:13px;
+	border-top-right-radius:13px;
+	-webkit-border-bottom-right-radius:13px;
+	-moz-border-radius-bottomright:13px;
+	border-bottom-right-radius:13px;
+	-webkit-border-bottom-left-radius:13px;
+	-moz-border-radius-bottomleft:13px;
+	border-bottom-left-radius:13px;
+	text-indent:1.8px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:20px;
+	font-weight:normal;
+	font-style:normal;
+	height:47px;
+	line-height:47px;
+	width:180px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 0px 0px #528ecc;
+}
+.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0b73db), color-stop(1, #2bc2f0) );
+	background:-moz-linear-gradient( center top, #0b73db 5%, #2bc2f0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b73db', endColorstr='#2bc2f0');
+	background-color:#0b73db;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
